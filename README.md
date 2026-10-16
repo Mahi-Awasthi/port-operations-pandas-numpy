@@ -49,20 +49,17 @@ The script introduces missing values in a copy of the selected columns, prints
 the missing-value counts before and after median imputation, and leaves the
 input file unchanged.
 
-## Upload to GitHub
+## Publish to GitHub
 
-Create a **public** repository named `port-operations-pandas-numpy` under your
-GitHub account, without initializing it with a README or other files. Then run
-these commands from this project folder:
+This project is prepared for the public repository
+[Mahi-Awasthi/port-operations-pandas-numpy](https://github.com/Mahi-Awasthi/port-operations-pandas-numpy).
+After authenticating Git with GitHub, publish the committed project from this
+folder with:
 
 ```bash
-git init
-git add README.md missing_values_demo.py sample_ports.csv requirements.txt .gitignore
-git commit -m "Add port operations missing values exercise"
-git branch -M main
-git remote add origin https://github.com/Mahi-Awasthi/port-operations-pandas-numpy.git
 git push -u origin main
 ```
 
-GitHub will prompt you to authenticate if needed. Never put a password or access
-token in the remote URL or in a project file.
+If Git prompts for authentication, sign in through Git Credential Manager or
+GitHub Desktop. Never put a password or access token in the remote URL or in a
+project file.
